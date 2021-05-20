@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Your Certificate By Mavericks</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="favicon" href="favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="https://media-exp1.licdn.com/dms/image/C4E0BAQG_twahJVlyjw/company-logo_200_200/0/1608424913289?e=1629331200&v=beta&t=HAo-F-O_ekWDzr-QhUraaJJTjiOvx1a5H2ei48ImWdg"
+        alt="Padhega India Logo"
+      />
+      <h4>Get your certificate of participation from</h4>
+      <h1>
+        <a href="" target="_blank" rel="noopener noreferrer"
+          >Mavericks Society</a
+        >
+      </h1>
+    </header>
+
+    <main>
+      <label for="name">Type Your Name</label>
+      <input
+        required
+        type="text"
+        name="Name"
+        autocomplete="name"
+        placeholder="Accha Baccha"
+        id="name"
+        minlength="3"
+        maxlength="16"
+      />
+      <button id="submitBtn">Get Certificate</button>
+    </main>
+
+    <iframe
+      src=""
+      id="mypdf"
+      height="500px"
+      width="500px"
+      frameborder="0"
+    ></iframe>
+
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+    <script src="./FileSaver.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
